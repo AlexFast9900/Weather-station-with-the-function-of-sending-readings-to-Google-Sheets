@@ -7,8 +7,8 @@
 iarduino_DHT sensor(16);     // объявляем  переменную для работы с датчиком DHT, указывая номер цифрового вывода к которому подключён датчик
 
 // Здесь вводятся данные для Wi-Fi сети //
-const char* ssid = "FedoraLinux"; // SSID
-const char* password = "router_blin02"; // Пароль
+const char* ssid = "-----------"; // SSID
+const char* password = "--------------"; // Пароль
 //////////////////////////////////////////
 
 const char *GScriptId = "AKfycbzFNeX3H3KJk7qTl5Q9fPxPcHfcnkdnJmlpGHiHsM738LbRpoq76556"; // Ключ из Google Script
