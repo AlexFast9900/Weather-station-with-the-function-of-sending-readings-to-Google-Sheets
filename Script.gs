@@ -21,7 +21,7 @@ function doGet(e){
  
   } catch(error) { 
     Logger.log(error);    
-    return ContentService.createTextOutput("Упс...." + error.message // Сообщение об ошибке
+    return ContentService.createTextOutput("Упсипупсички...." + error.message // Сообщение об ошибке
                                             + "n" + new Date() 
                                             + "nhum: " + humi +
                                             + "ntemp: " + temp);
